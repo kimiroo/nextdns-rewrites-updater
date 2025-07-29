@@ -1,0 +1,42 @@
+{
+    "checkInterval": 60,
+    "accounts": [
+        {
+            "apiToken": "__API_TOKEN_HERE__",
+            "profiles": [
+                {
+                    "profileId": "__PROFILE_ID_1__",
+                    "rewrites": [
+                        {
+                            "name": "sample.example.com"
+                        }
+                    ]
+                },
+                {
+                    "profileId": "__PROFILE_ID_2__",
+                    "rewrites": [
+                        {
+                            "name": "sample.example.com"
+                        },
+                        {
+                            "name": "foo.example.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "apiToken": "__ANOTHER_NEXTDNS_ACCOUNT__",
+            "profiles": [
+                {
+                    "profileId": "__PROFILE_ID_3__",
+                    "rewrites": [
+                        {
+                            "name": "bar.example.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
